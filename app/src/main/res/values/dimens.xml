@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_coin_width">156dp</dimen>
+    <dimen name="horizontal_coin_height">124dp</dimen>
+    <dimen name="horizontal_coin_spacing">4dp</dimen>
+</resources>

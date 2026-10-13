@@ -1,4 +1,4 @@
-package ru.otus.cryptosample.coins.feature.adapter
+package ru.otus.cryptosample.coins.feature.adapter.holders
 
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
@@ -32,5 +32,9 @@ class CoinViewHolder(
 
             fireBadge.isVisible = coin.highlight
         }
+    }
+
+    fun bindHighlight(highlight: Boolean) {
+        binding.fireBadge.isVisible = highlight
     }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Top Coins" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/coinsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:clipToPadding="true"
+        android:overScrollMode="never"
+        android:paddingHorizontal="0dp"
+        android:scrollbars="horizontal" />
+
+</LinearLayout>
